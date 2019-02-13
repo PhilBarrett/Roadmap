@@ -1,7 +1,8 @@
 # Roadmap
-|                                                                              |           |          |               |                                  | 
-|------------------------------------------------------------------------------|-----------|----------|---------------|----------------------------------| 
-| Summary                                                                      | Issue key | Priority | Fix Version/s | Component/s                      | 
+##  Release 2.0.0
+|                                                                              |           |          |               |                  |
+|------------------------------------------------------------------------------|--------------|----------|---------------|----------------------------------| 
+| **Summary**                                                                  | **Issue key** | **Priority** | **Fix Version/s** | **Component/s**                      | 
 | Cucumber - test data sets                                                    | ETH-4     | High     | Release 2.0.0 | CI - Automated testing           | 
 | Cucumber: Define test scenarios                                              | ETH-44    | Medium   | Release 2.0.0 | CI - Automated testing           | 
 | Cucumber - AQL queries                                                       | ETH-6     | Medium   | Release 2.0.0 | CI - Automated testing           | 
@@ -11,6 +12,11 @@
 | services.properties                                                          | ETH-2     | Medium   | Release 2.0.0 | CI - Tooling                     | 
 | Initial code base refactor (ins Spring/Maven)                                | ETH-1     | Medium   | Release 2.0.0 | Software frameworks              | 
 | Agree coding practices / design patterns                                     | ETH-45    | Medium   | Release 2.0.0 |                                  | 
+##  Release 2.1.0
+
+|                                                                              |           |          |               |                                  | 
+|------------------------------------------------------------------------------|--------------|----------|---------------|----------------------------------| 
+| **Summary**                                                                      | **Issue key** | **Priority** | **Fix Version/s** | **Component/s**                  | 
 | Conformance to openEHR standard                                              | ETH-22    | Medium   | Release 2.1.0 | Core - AQL                       | 
 | Check support for non-primitive object return e.g. whole Entry as AQL result | ETH-21    | Medium   | Release 2.1.0 | Core - AQL                       | 
 | Check java-libs merge history                                                | ETH-20    | Medium   | Release 2.1.0 | Core - RM Library                | 
@@ -27,6 +33,11 @@
 | openEHR REST API  - XML                                                      | ETH-9     | Medium   | Release 2.1.0 | Services - API Development       | 
 | Auth Basic auth                                                              | ETH-15    | Medium   | Release 2.1.0 | Services - Authentication        | 
 | Springify SHIO                                                               | ETH-14    | Medium   | Release 2.1.0 | Services - Authentication        | 
+
+##  Release 2.2.0
+|                                                                              |           |          |               |                                  | 
+|------------------------------------------------------------------------------|--------------|----------|---------------|----------------------------------| 
+| **Summary**                                                                      | **Issue key** | **Priority** | **Fix Version/s** | **Component/s**                  | 
 | Support for post-commit event processing with JavaScript                     | ETH-35    | Medium   | Release 2.2.0 | Core - AQL                       | 
 | Support for server side querying                                             | ETH-34    | Medium   | Release 2.2.0 | Core - AQL                       | 
 | AQL optimisation for population querying                                     | ETH-33    | Medium   | Release 2.2.0 | Core - AQL                       | 
@@ -39,6 +50,12 @@
 | Fluent API /Builder Pattern/Composition builder - code generator             | ETH-26    | Medium   | Release 2.2.0 | Services - API Development       | 
 | Implementation of IHE XDS middleware                                         | ETH-32    | Medium   | Release 2.2.0 | Services - IHE                   | 
 | ATNA system log                                                              | ETH-27    | Medium   | Release 2.2.0 | Services - IHE                   | 
+
+##  Release 2.3.0
+
+|                                                                              |           |          |               |                                  | 
+|------------------------------------------------------------------------------|--------------|----------|---------------|----------------------------------| 
+| **Summary**                                                                      | **Issue key** | **Priority** | **Fix Version/s** | **Component/s**                  | 
 | QEWD Jumper - data transformer for UI & API (utility)                        | ETH-39    | Medium   | Release 2.3.0 | Components - data transformation | 
 | Oracle support - new AQL processor; JSONB question; separate component       | ETH-37    | Medium   | Release 2.3.0 | Core - AQL                       | 
 |  Data migration and export data                                              | ETH-43    | Medium   | Release 2.3.0 | Core - Database                  | 
