@@ -3,25 +3,23 @@
 Below is the EtherCIS MKII development roadmap following the successful EtherCIS camp in December 2018. If you would like to contribute to these open source efforts, please get in touch at either https://gitter.im/Ripple-Foundation or info@ripple.foundation
 
 ##  Release 2.0.0
-|                                                                              |           |          |               |                  |
-|------------------------------------------------------------------------------|-----------------|----------|---------------|----------------------------------| 
-| **Summary**                                                                  | **Issue key** | **Priority** | **Component/s**          |
-| Agree coding practices / design patterns                                     | ETH-45    | Medium   | General                          | 
-| Cucumber - test data sets                                                    | ETH-4     | High     | CI - Automated testing           | 
-| Cucumber: Define test scenarios                                              | ETH-44    | Medium   | CI - Automated testing           | 
-| Cucumber - AQL queries                                                       | ETH-6     | Medium   | CI - Automated testing           | 
-| Cucumber - templates                                                         | ETH-5     | Medium   | CI - Automated testing           | 
-| Cucumber - Test scripts                                                      | ETH-3     | Medium   | CI - Automated testing           | 
-| Agree EtherCIS2 Git repo / CI environment                                    | ETH-46    | Medium   | CI - Tooling                     | 
-| services.properties                                                          | ETH-2     | Medium   | CI - Tooling                     | 
-| Initial code base refactor (ins Spring/Maven)                                | ETH-1     | Medium   | Software frameworks              | 
-| Agree coding practices / design patterns                                     | ETH-45    | Medium   | General                          | 
+| **Summary**                                                                  | **Issue key** | **Priority** | **Component/s**|  
+|------------------------------------------------------------------------------|---------------|----------|---------------|        
+| Agree coding practices / design patterns                                     | ETH-45        | Medium   | General                      | 
+| Cucumber - test data sets                                                    | ETH-4         | High     | CI - Automated testing       | 
+| Cucumber: Define test scenarios                                              | ETH-44        | Medium   | CI - Automated testing       | 
+| Cucumber - AQL queries                                                       | ETH-6         | Medium   | CI - Automated testing       | 
+| Cucumber - templates                                                         | ETH-5         | Medium   | CI - Automated testing       | 
+| Cucumber - Test scripts                                                      | ETH-3         | Medium   | CI - Automated testing       | 
+| Agree EtherCIS2 Git repo / CI environment                                    | ETH-46        | Medium   | CI - Tooling                 | 
+| services.properties                                                          | ETH-2         | Medium   | CI - Tooling                 | 
+| Initial code base refactor (ins Spring/Maven)                                | ETH-1         | Medium   | Software frameworks          | 
+| Agree coding practices / design patterns                                     | ETH-45        | Medium   | General                      | 
 ___
 ##  Release 2.1.0
 
-|                                                                              |           |          |               |                                  | 
-|------------------------------------------------------------------------------|--------------|----------|---------------|----------------------------------| 
-| **Summary**                                                                      | **Issue key** | **Priority** | **Component/s**      | 
+| **Summary**                                                                  | **Issue key** | **Priority** | **Component/s**| 
+|------------------------------------------------------------------------------|---------------|----------|---------------|
 | Conformance to openEHR standard                                              | ETH-22    | Medium   | Core - AQL                       | 
 | Check support for non-primitive object return e.g. whole Entry as AQL result | ETH-21    | Medium   | Core - AQL                       | 
 | Check java-libs merge history                                                | ETH-20    | Medium   | Core - RM Library                | 
@@ -41,9 +39,9 @@ ___
 
 ___
 ##  Release 2.2.0
-|                                                                              |           |          |               |                                  | 
-|------------------------------------------------------------------------------|--------------|----------|---------------|----------------------------------| 
-| **Summary**                                                                      | **Issue key** | **Priority** | **Component/s**      | 
+
+| **Summary**                                                                  | **Issue key** | **Priority** | **Component/s**|
+|------------------------------------------------------------------------------|---------------|----------|---------------| 
 | Support for post-commit event processing with JavaScript                     | ETH-35    | Medium   | Core - AQL                       | 
 | Support for server side querying                                             | ETH-34    | Medium   | Core - AQL                       | 
 | AQL optimisation for population querying                                     | ETH-33    | Medium   | Core - AQL                       | 
@@ -60,9 +58,8 @@ ___
 
 ##  Release 2.3.0
 
-|                                                                              |           |          |               |                                  | 
-|------------------------------------------------------------------------------|--------------|----------|---------------|----------------------------------| 
-| **Summary**                                                                      | **Issue key** | **Priority** | **Component/s**      | 
+| **Summary**                                                                  | **Issue key** | **Priority** | **Component/s**      |
+|------------------------------------------------------------------------------|--------------|----------|---------------|
 | QEWD Jumper - data transformer for UI & API (utility)                        | ETH-39    | Medium   | Components - data transformation | 
 | Oracle support - new AQL processor; JSONB question; separate component       | ETH-37    | Medium   | Core - AQL                       | 
 |  Data migration and export data                                              | ETH-43    | Medium   | Core - Database                  | 
