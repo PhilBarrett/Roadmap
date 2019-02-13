@@ -1,10 +1,15 @@
 # Roadmap
 
-Below is the EtherCIS MKII development roadmap following the successful EtherCIS camp in December 2018. If you would like to contribute to these open source efforts, please get in touch at either https://gitter.im/Ripple-Foundation or info@ripple.foundation
+Below is the EtherCIS MKII development roadmap following the successful EtherCIS camp in December 2018.   
+If you would like to contribute to these open source efforts, please get in touch at either  
+https://gitter.im/Ripple-Foundation or info@ripple.foundation
+  
+##  Release 2.0.0   
 
-##  Release 2.0.0
-| **Summary**                                                                  | **Issue key** | **Priority** | **Component/s**|  
-|------------------------------------------------------------------------------|---------------|----------|---------------|        
+
+
+| **Summary**                                                                 | **Issue key** | **Priority** | **Component/s** |  
+|:----------------------------------------------------------------------------------------|:---------------|:----------|:---------------|        
 | Agree coding practices / design patterns                                     | ETH-45        | Medium   | General                      | 
 | Cucumber - test data sets                                                    | ETH-4         | High     | CI - Automated testing       | 
 | Cucumber: Define test scenarios                                              | ETH-44        | Medium   | CI - Automated testing       | 
@@ -19,7 +24,7 @@ ___
 ##  Release 2.1.0
 
 | **Summary**                                                                  | **Issue key** | **Priority** | **Component/s**| 
-|------------------------------------------------------------------------------|---------------|----------|---------------|
+|:------------------------------------------------------------------------------|:---------------|:----------|:---------------|
 | Conformance to openEHR standard                                              | ETH-22    | Medium   | Core - AQL                       | 
 | Check support for non-primitive object return e.g. whole Entry as AQL result | ETH-21    | Medium   | Core - AQL                       | 
 | Check java-libs merge history                                                | ETH-20    | Medium   | Core - RM Library                | 
@@ -41,7 +46,7 @@ ___
 ##  Release 2.2.0
 
 | **Summary**                                                                  | **Issue key** | **Priority** | **Component/s**|
-|------------------------------------------------------------------------------|---------------|----------|---------------| 
+|:------------------------------------------------------------------------------|:---------------|:----------|:---------------| 
 | Support for post-commit event processing with JavaScript                     | ETH-35    | Medium   | Core - AQL                       | 
 | Support for server side querying                                             | ETH-34    | Medium   | Core - AQL                       | 
 | AQL optimisation for population querying                                     | ETH-33    | Medium   | Core - AQL                       | 
@@ -58,8 +63,9 @@ ___
 
 ##  Release 2.3.0
 
+
 | **Summary**                                                                  | **Issue key** | **Priority** | **Component/s**      |
-|------------------------------------------------------------------------------|--------------|----------|---------------|
+|:------------------------------------------------------------------------------|:-----------------|:----------|:---------------|
 | QEWD Jumper - data transformer for UI & API (utility)                        | ETH-39    | Medium   | Components - data transformation | 
 | Oracle support - new AQL processor; JSONB question; separate component       | ETH-37    | Medium   | Core - AQL                       | 
 |  Data migration and export data                                              | ETH-43    | Medium   | Core - Database                  | 
